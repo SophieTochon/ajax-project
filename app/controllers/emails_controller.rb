@@ -9,7 +9,7 @@ class EmailsController < ApplicationController
   end
 
   def show
-    @email = Email.find.params([:id])
+    @email = Email.find(params[:id])
 
     respond_to do |f|
       f.html { redirect_to emails_url }
@@ -18,8 +18,7 @@ class EmailsController < ApplicationController
   end
 
   def destroy
-    @email = Email.find.params([:id])
-    @email.delete
+    @email = Email.destroy(params[:id])
 
     respond_to do |f|
       f.html { redirect_to emails_url }

@@ -20,6 +20,15 @@
 	list-style: none;
 }
 
+#email-object {
+	text-decoration: none;
+	color: #d8d9de;
+}
+
+#email-object:hover {
+	color: #282828;
+}
+
 .col-emails-body {
 	border: 1px solid black;
 	width: 60%;
