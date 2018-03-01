@@ -2,18 +2,21 @@
 
 	<div class="col-emails-object">
 
-		<h1>Your mails</h1>
+		<h1 class="test">Your mails</h1>
 
 		<ul class="emails-object">
 			<% @emails.each do |email| %>
-			  <li class="email-object"><%= email.object %></li>
+			  <li class="email<%=email.object%>-object"><%= link_to email.object, email, method: :get, remote: true%></li>
 			  </br>
 			<% end %>
 		</ul>
 	</div>
 
 	<div class="col-emails-body">
-		<h1>Email object</h1>
+		<% @emails.each do |email| %>
+			<h1 id="email<%=email.object%>-object" style="display: none"><%= email.object %></h1>
+			<p id="email<%= email.body %>-body" style="display: none"><%= email.body %></p>
+		<% end %>
 	</div>
 
 </div>

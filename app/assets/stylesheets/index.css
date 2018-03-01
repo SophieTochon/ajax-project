@@ -7,15 +7,14 @@
 }
 
 .col-emails-object {
-	padding: 2%;
-		border: 1px solid black;
+	padding: 3%;
 }
 
 .emails-object {
 	margin-top: 3%;
 }
 
-.email-object {
+.emails-object li {
 	cursor: pointer;
 	padding: 10px;
 	list-style: none;
@@ -24,5 +23,5 @@
 .col-emails-body {
 	border: 1px solid black;
 	width: 60%;
-	padding: 2%;
+	padding: 3%;
 }
