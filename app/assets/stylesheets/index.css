@@ -1,0 +1,14 @@
+
+.col-emails-object {
+
+}
+
+.emails-object {
+	margin-top: 3%;
+}
+
+.email-object {
+	cursor: pointer;
+	padding: 10px;
+	list-style: none;
+}

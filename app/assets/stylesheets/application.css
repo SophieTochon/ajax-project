@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+html {
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	margin-top: 5%;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	color: #282828;
+}
+
+li {
+	font-family: 'Open Sans', sans-serif;
+	color: #404855;
+}
