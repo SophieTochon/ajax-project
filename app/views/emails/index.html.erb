@@ -1,11 +1,19 @@
-<div class="col-emails-object">
+<div class="container">
 
-	<h1>Les mails</h1>
+	<div class="col-emails-object">
 
-	<ul class="emails-object">
-		<% @emails.each do |email| %>
-		  <li class="email-object"><%= email.object %></li>
-		  </br>
-		<% end %> 
+		<h1>Your mails</h1>
+
+		<ul class="emails-object">
+			<% @emails.each do |email| %>
+			  <li class="email-object"><%= email.object %></li>
+			  </br>
+			<% end %>
+		</ul>
 	</div>
+
+	<div class="col-emails-body">
+		<h1>Email object</h1>
+	</div>
+
 </div>

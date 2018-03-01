@@ -1,6 +1,14 @@
+.container {
+	display: flex;
+}
+
+.container div {
+	margin: 4%;
+}
 
 .col-emails-object {
-
+	padding: 2%;
+		border: 1px solid black;
 }
 
 .emails-object {
@@ -11,4 +19,10 @@
 	cursor: pointer;
 	padding: 10px;
 	list-style: none;
+}
+
+.col-emails-body {
+	border: 1px solid black;
+	width: 60%;
+	padding: 2%;
 }

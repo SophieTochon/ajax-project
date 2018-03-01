@@ -20,12 +20,12 @@ html {
 
 body {
 	height: 100%;
-	margin-top: 5%;
+	margin-top: 2%;
 	margin-left: 8%;
 	margin-right: 8%;
 }
 
-h1 {
+h1, h2 {
 	font-family: 'Ubuntu', sans-serif;
 	color: #282828;
 }
